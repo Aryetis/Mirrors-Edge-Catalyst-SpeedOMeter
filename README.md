@@ -22,6 +22,7 @@ If you have no idea what this speech is all about, then don't worry, you're not 
 
 
 # planned features for Updates 1.4v (release date ? You wish)
+* Fix "unHandledException crash" on exit and when trying to stop the FullScreen Method hack while ME:C has been shut off 
 * Serialization / automatic save and load of SpeedOMetter settings 
 * Dynamic setting support for Windowed/Borderless method (allow users to tweak settings once the Windowed/Borderless SpeedOMeter is running)
 * Trying to hijack another IG variable to print a proper string instead of a simple Int
