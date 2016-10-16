@@ -32,6 +32,7 @@ If you have no idea what this speech is all about, then don't worry, you're not 
 * Allow the user to run "FullScreen Mode" hack even thought MEC isn't launched yet (sparing them a alt tab)
 * Add a font selector for windowed/borderless Method, and maybe even Fullscreen Mode (need further investigations)
 * Add global hotkey to turn off/on SpeedOMeter
+* Hack FPS graph do display speed too, could be useful to compare some routes for dashes and stuff
 
 # Updates 1.3v (Latest x86/x64 version)
 * Added Fullscreen Compatible Method with better performance
