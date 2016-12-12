@@ -22,6 +22,12 @@ namespace Mirrors_Edge_Catalyst_SpeedOMeter
         /**********************************************************************
          * TODO : _ Serialize user settings, save them on Exit                *
          *          and restore them on launch                                *
+         *          Use 
+         *          Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData)
+         *          to get %appdata% folder and save settings within          *
+         *                                                                    *
+         *                                                                    *
+         *                                                                    *
          *        _ Add a Font selector for Windowed                          *
          *          .... and maybe Fullscreen too                             *
          *        _ clean those names ...                                     *
@@ -160,7 +166,8 @@ namespace Mirrors_Edge_Catalyst_SpeedOMeter
 
                 if (LaunchSpeedOMeter.ForeColor == Color.Green)
                 {
-                    SpeedOMeter.SpeedOMeterClose();
+                    if (SpeedOMeter != null)
+                        SpeedOMeter.SpeedOMeterClose();
                     SpeedOMeter = new SpeedOMeter(0, ColorPickerColor, (int)UpdateRateMenu.SelectedItem); // Random int given wich, does not matter
                     LaunchSpeedOMeter.ForeColor = Color.Red;
                 }
