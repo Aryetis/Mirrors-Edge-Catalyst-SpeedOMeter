@@ -23,16 +23,17 @@ you might want to save your modifications before using this software as it will 
 If you have no idea what this speech is all about, then don't worry, you're not concerned.
 
 
-# planned features for Updates 1.4v (release date ? You wish)
-* Fix "unHandledException crash" on exit and when trying to stop the FullScreen Method hack while ME:C has been shut off 
+# planned features for Updates 1.4v (release date ? You wish ! Compile it yourself please)
 * Serialization / automatic save and load of SpeedOMetter settings 
 * Dynamic setting support for Windowed/Borderless method (allow users to tweak settings once the Windowed/Borderless SpeedOMeter is running)
 * Trying to hijack another IG variable to print a proper string instead of a simple Int
-* Add a "Launch Mirror's Edge : Catalyst" button to spare the user some effort
 * Allow the user to run "FullScreen Mode" hack even thought MEC isn't launched yet (sparing them a alt tab)
 * Add a font selector for windowed/borderless Method, and maybe even Fullscreen Mode (need further investigations)
 * Add global hotkey to turn off/on SpeedOMeter
 * Hack FPS graph do display speed too, could be useful to compare some routes for dashes and stuff
+
+* Fix "unHandledException crash" on exit and when trying to stop the FullScreen Method hack while ME:C has been shut off  (DONE)
+* Add a "Launch Mirror's Edge : Catalyst" button to spare the user some effort (DONE)
 
 # Updates 1.3v (Latest x86/x64 version)
 * Added Fullscreen Compatible Method with better performance
