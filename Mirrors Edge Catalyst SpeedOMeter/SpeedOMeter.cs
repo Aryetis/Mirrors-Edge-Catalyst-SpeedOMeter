@@ -6,7 +6,7 @@ using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Threading;
 using System.Windows.Forms;
-using FontFactory = SharpDX.DirectWrite.Factory;
+
 
 namespace Mirrors_Edge_Catalyst_SpeedOMeter
 {

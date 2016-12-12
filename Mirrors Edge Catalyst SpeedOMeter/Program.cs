@@ -8,14 +8,6 @@ using System.Security.Principal;
 
 namespace Mirrors_Edge_Catalyst_SpeedOMeter
 {
-    /***************************
-     * TODO : add "Launch ME:C, catalyst button"
-     *  (use reg entry : HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\EA Games\Mirrors Edge Catalyst\Install Dir + "MirrorsEdgeCatalyst.exe"
-     * 
-     * 
-     ***************************/
-
-
     class Program : ApplicationContext
     {
         /// <summary>

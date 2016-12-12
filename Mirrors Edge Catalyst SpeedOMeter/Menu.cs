@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -134,7 +135,26 @@ namespace Mirrors_Edge_Catalyst_SpeedOMeter
             }
             else
             {
-                MessageBox.Show("Launch the game before running SpeedOMeter");
+                // Mirror's edge catalyst isn't running => ask user if he wants to run it
+                DialogResult dr =  MessageBox.Show("It appears that Mirror's Edge : Catalyst isn't running.\n Shall I run it for you ?", "ME:C is not running", MessageBoxButtons.YesNo);
+                if ( dr == DialogResult.Yes )
+                {
+                    try
+                    {
+                        // get mexExecPath
+                        RegistryKey mecRegKey = Registry.LocalMachine.OpenSubKey("SOFTWARE\\Wow6432Node\\EA Games\\Mirrors Edge Catalyst");
+                        string mecExecPath = (string)mecRegKey.GetValue("Install Dir") + "MirrorsEdgeCatalyst.exe";
+
+                        // Launch Mirror's Edge Catalyst
+                        Process mecProcess = new Process();
+                        mecProcess.StartInfo.FileName = mecExecPath;
+                        mecProcess.Start();
+                    }
+                    catch
+                    {
+                        MessageBox.Show("Sorry I couldn't locate MirrorsEdgeCatalyst.exe");
+                    }
+                }
             }
         }
         public void LoadFont()
