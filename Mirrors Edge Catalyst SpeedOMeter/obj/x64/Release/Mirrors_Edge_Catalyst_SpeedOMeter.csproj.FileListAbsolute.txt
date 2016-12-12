@@ -56,7 +56,6 @@ C:\Users\Aramir\workspaceVisualStudio\Mirrors-Edge-Catalyst-SpeedOMeter\Mirrors 
 C:\Users\Aramir\workspaceVisualStudio\Mirrors-Edge-Catalyst-SpeedOMeter\Mirrors Edge Catalyst SpeedOMeter\bin\x64\Release\SharpDX.Direct2D1.xml
 C:\Users\Aramir\workspaceVisualStudio\Mirrors-Edge-Catalyst-SpeedOMeter\Mirrors Edge Catalyst SpeedOMeter\bin\x64\Release\SharpDX.Direct3D11.xml
 C:\Users\Aramir\workspaceVisualStudio\Mirrors-Edge-Catalyst-SpeedOMeter\Mirrors Edge Catalyst SpeedOMeter\bin\x64\Release\SharpDX.DXGI.xml
-C:\Users\Aramir\workspaceVisualStudio\Mirrors-Edge-Catalyst-SpeedOMeter\Mirrors Edge Catalyst SpeedOMeter\obj\x64\Release\Mirrors_Edge_Catalyst_SpeedOMeter.csprojResolveAssemblyReference.cache
 C:\Users\Aramir\workspaceVisualStudio\Mirrors-Edge-Catalyst-SpeedOMeter\Mirrors Edge Catalyst SpeedOMeter\obj\x64\Release\Mirrors_Edge_Catalyst_SpeedOMeter.SpeedOMeter.resources
 C:\Users\Aramir\workspaceVisualStudio\Mirrors-Edge-Catalyst-SpeedOMeter\Mirrors Edge Catalyst SpeedOMeter\obj\x64\Release\Mirrors_Edge_Catalyst_SpeedOMeter.Menu.resources
 C:\Users\Aramir\workspaceVisualStudio\Mirrors-Edge-Catalyst-SpeedOMeter\Mirrors Edge Catalyst SpeedOMeter\obj\x64\Release\Mirrors_Edge_Catalyst_SpeedOMeter.Properties.Resources.resources
